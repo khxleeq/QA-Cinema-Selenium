@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="July-Enabled-2-Selenium" />
         <module name="qac-selenium" />
+        <module name="QA-Cinema-Selenium" />
       </profile>
     </annotationProcessing>
   </component>
