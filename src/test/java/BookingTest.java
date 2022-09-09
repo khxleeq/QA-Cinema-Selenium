@@ -46,8 +46,11 @@ public class BookingTest {
                 By.cssSelector("#root > div > form > div > select:nth-child(8) > option:nth-child(3)"))
                 .click();
         this.driver.findElement(
-                By.cssSelector("#seats")).
-                .click().;
+                By.cssSelector("#seats"))
+                .click();
+        this.driver.findElement(
+                        By.cssSelector("#seats"))
+                .sendKeys("5");
     }
 
     @AfterEach
