@@ -1,0 +1,5 @@
+
+*.xml
+.idea/misc.xml
+.idea/misc.xml
+logs/solr.log
